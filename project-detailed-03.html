@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<!-- Mirrored from lmpixels.com/demo/leven-html-new/full-width-dark/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Dec 2024 19:09:56 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Haider Abbas / Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Haider Abbas / Personal Portfolio" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="page">
+
+    <div class="lm-animated-bg"></div>
+    
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-symbol">H</div>
+                <div class="logo-text">Haider <span>Abbas</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item">
+                  <a href="index.html">About Me</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="resume.html">Resume</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+                
+                <li class="menu-item">
+                  <a href="certs.html">Certifications</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+            <!-- Mobile Menu Toggle -->
+          </div>
+        </header>
+        <!-- /Header -->
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+
+              <div class="page-title">
+                <h2>Cyber Security DVWA Lab Report</h2>
+                <div class="page-subtitle">
+                    <h4> Penetration Testing</h4>
+                </div>
+              </div>
+
+              <div id="content" class="page-content site-content single-post" role="main">
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <p style="margin-bottom: 20px;">
+                      This report documents a controlled security assessment performed on the Damn Vulnerable Web Application (DVWA).
+                      Objectives: identify common web vulnerabilities, demonstrate exploitation paths in a lab environment, and propose
+                      effective remediations. Tools & techniques included Burp Suite, OWASP ZAP, Kali Linux utilities, and manual testing.
+                    </p>
+                    <!-- Portfolio Content -->
+                    <div id="portfolio_content_q" class="portfolio-content">
+
+                      <ul class="portfolio-filters">
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_sql_injection">SQL Injection</a>
+                        </li>
+                        
+                        <li active>
+                          <a class="filter btn btn-sm btn-link" data-group="category_xss">Cross-Site Scripting</a>
+                        </li>
+                        
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_command_injection">Command Injection</a>
+                        </li>
+
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_file_inclusion">File Inclusion</a>
+                        </li>
+                        
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_crsf">Cross-Site Request Forgery (CSRF)</a>
+                        </li>
+                        
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_bruteforce">Bruteforce</a>
+                        </li>
+                        
+                        <li>
+                          <a class="filter btn btn-sm btn-link" data-group="category_file_upload">File Upload</a>
+                        </li>
+                      </ul>
+      
+      
+                      <!-- Portfolio Grid -->
+                      <div class="portfolio-grid one-column">
+
+                        <!-- Portfolio Item 1 -->
+                        <figure class="item standard" data-groups='["category_sql_injection"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/01.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>1. SQL Injection (SQLi)</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                Input fields were vulnerable to SQL injection. Payloads such as <code>' OR '1'='1 --</code> bypassed authentication and
+                                allowed enumeration of database records and metadata. Error-based responses revealed table/column structure on low/medium
+                                security levels.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Use parameterized queries / prepared statements (e.g., PDO, parameterized drivers).</li>
+                                <li>Server-side input validation and strict type casting; reject unexpected characters.</li>
+                                <li>Implement least-privilege DB accounts; disable verbose SQL error messages in production.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 1 -->
+
+                        <!-- Portfolio Item 2 -->
+                        <figure class="item standard" data-groups='["category_xss"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/02.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>2. Cross-Site Scripting (XSS)</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                Reflected and stored XSS identified. Injected scripts (e.g., <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>) executed in the victim’s browser,
+                                exposing risk of session hijacking and client-side data theft.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Context-aware output encoding (HTML, attribute, JS, URL contexts).</li>
+                                <li>Input sanitization and server-side validation; prefer safe templating frameworks.</li>
+                                <li>Deploy Content Security Policy (CSP) and HttpOnly/SameSite cookies where applicable.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 2 -->
+
+                        <!-- Portfolio Item 3 -->
+                        <figure class="item standard" data-groups='["category_command_injection"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/05.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>3. Command Injection</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                Parameters were concatenated into shell commands (e.g., ping). Separators like <code>;&amp;&amp;|</code> allowed arbitrary command execution,
+                                demonstrating potential server compromise.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Avoid shell execution; use safe language/system APIs.</li>
+                                <li>Strict allowlists for input; reject metacharacters and multi-command operators.</li>
+                                <li>Run services with least privileges; enable command execution sandboxing/AppArmor/SELinux.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 3 -->
+
+                        <!-- Portfolio Item 6 -->
+                        <figure class="item standard" data-groups='["category_file_inclusion"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/07.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>4. File Inclusion (LFI / RFI)</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                Path parameters were injectable, enabling local file retrieval (e.g., <code>/etc/passwd</code>) and, where enabled, remote inclusion of hostile scripts.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Use a strict whitelist of server-side include targets; map IDs to files rather than accepting paths.</li>
+                                <li>Disable remote file inclusion and URL wrappers; normalize and validate paths.</li>
+                                <li>Keep sensitive files outside the web root; enforce least-privilege filesystem permissions.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 6 -->
+
+                        <!-- Portfolio Item 7 -->
+                        <figure class="item standard" data-groups='["category_crsf"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/03.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>5. Cross-Site Request Forgery (CSRF)</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                State-changing endpoints lacked CSRF defenses. A crafted third-party page could force authenticated users to perform unintended actions.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Embed and verify unpredictable CSRF tokens per request (synchronized tokens or double-submit cookies).</li>
+                                <li>Enable <code>SameSite</code> cookies and enforce re-authentication for critical actions.</li>
+                                <li>Validate Origin/Referer headers where feasible.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 7 -->
+
+                        <!-- Portfolio Item 8 -->
+                        <figure class="item standard" data-groups='["category_bruteforce"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/06.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>6. Brute Force / Weak Passwords</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                Login endpoints accepted unlimited attempts without rate limiting, and weak credentials were accepted, enabling automated credential guessing.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Enforce rate limiting, exponential backoff, and temporary account lockouts.</li>
+                                <li>Adopt strong password policies and breach-password checks; support MFA/2FA.</li>
+                                <li>Monitor authentication telemetry; alert on suspicious activity patterns.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 8 -->
+
+                        <!-- Portfolio Item 9 -->
+                        <figure class="item standard" data-groups='["category_file_upload"]'>
+                          <div class="portfolio-item-img">
+                            <img src="img/portfolio/DVWA_Pics/04.png" alt="Full Project 2" title="" />
+                            <a href="project-details/project-detailed-01.html"></a>
+                          </div>
+
+                          <article id="sql-injection" class="vuln-card" style="margin-top: 30px;">
+                            <h3>7. File Upload Vulnerability</h3>
+                            <div class="vuln-body">
+                              <h4>Result</h4>
+                              <p>
+                                The upload feature accepted executable payloads (e.g., <code>.php</code>) with permissive MIME/extension checks, enabling remote code execution when accessed.
+                              </p>
+                              <h4>Solution</h4>
+                              <ul>
+                                <li>Whitelist safe types; validate both filename and MIME using server-side checks and content sniffing.</li>
+                                <li>Store uploads outside web root; serve via indirection (e.g., ID lookups, not direct paths).</li>
+                                <li>Rename files, strip metadata, restrict permissions, and optionally scan with antivirus.</li>
+                              </ul>
+                            </div>
+                          </article>
+                        </figure>
+                        <!-- /Portfolio Item 9 -->
+                      </div>
+                      <!-- /Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://shorturl.at/rYi4T" target="_blank">Facebook</a>
+              </li>
+
+              <li>
+                <a href="https://shorturl.at/7HRxH" target="_blank">Linkedin</a>
+              </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>© 2024 All rights reserved. TechFusion.</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+        
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Add Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script>
+  $(document).ready(function(){
+    var $grid = $('.portfolio-grid').isotope({
+      itemSelector: '.item',
+      layoutMode: 'masonry',
+      // optional: animation
+      transitionDuration: '0.4s'
+    });
+
+    //  Show only SQL Injection items by default
+    $grid.isotope({ filter: '[data-groups*="category_sql_injection"]' });
+
+    //  Force refresh after init
+    setTimeout(function(){
+      $grid.isotope('reloadItems').isotope({ filter: '[data-groups*="category_sql_injection"]' });
+    }, 200);
+
+    //  Also relayout after images load
+    $grid.imagesLoaded().always(function(){
+      $grid.isotope('layout');
+    });
+
+    // filter items on click
+    $('.portfolio-filters').on('click', 'a', function(e){
+      e.preventDefault();
+      var filterValue = $(this).attr('data-group');
+
+      if(filterValue === 'category_all'){
+        $grid.isotope({ filter: '*' });
+      } else {
+        $grid.isotope({ filter: function(){
+          var groups = $(this).attr('data-groups');
+          return groups.includes(filterValue);
+        }});
+      }
+
+      $('.portfolio-filters li').removeClass('active');
+      $(this).parent().addClass('active');
+    });
+
+    //  highlight SQL Injection by default
+    $('.portfolio-filters li').removeClass('active');
+    $('.portfolio-filters a[data-group="category_sql_injection"]').parent().addClass('active');
+  });
+</script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8f5a2af29dbce18d","version":"2024.10.5","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"94b99c0576dc45bf9d669fb5e9256829","b":1}' crossorigin="anonymous"></script>
+</body>
